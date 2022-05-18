@@ -1,6 +1,7 @@
 @extends('frontend.home.layouts.main')
 
 @section('main-container')
+
     <body>
         <div class="message">
     </div>
