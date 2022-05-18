@@ -9,21 +9,20 @@
         <link href="{{ asset('frontend/images/spotlight.ico')}}" type="image/x-icon" rel="shortcut icon"/>
         
         <link rel="stylesheet" href="{{ asset('frontend/fronpage css/bootstrap.min.css') }}"/>
-        <link rel="stylesheet" href="/frontend/css/style-old.css?q=60820317"/>
-        <link rel="stylesheet" href="/frontend/css/style.css?q=60820317"/>
+        <link rel="stylesheet" href="{{ asset('frontend/fronpage css/style-old.css?q=60820317') }}"/>
+        <link rel="stylesheet" href="{{ asset('frontend/fronpage css/style.css?q=60820317') }}"/>
         <link rel="stylesheet" href="/frontend/css/media-style.css"/>
 
         <script src="/frontend/js/jquery-3.1.1.min.js"></script>
-        <script src="/usermgmt/js/ajaxValidation.js?q=60820317">
-
-        </script>        <script>var urlForJs = "https://testing.myspotlight.co/";</script>
+        <script src="/usermgmt/js/ajaxValidation.js?q=60820317"></script>
+        <script>var urlForJs = "{{url('/')}}";</script>
     </head>
     <body class="login">
         <div class="wrapper-page-1">
     <div class="card full-height-login m-2">
         <div class="card-body ">
             <h3 class="text-center m-0">
-                <a class="logo logo-admin" href="https://testing.myspotlight.co/"><img src="/frontend/img/logo.png" height="50" alt="logo"/></a>
+                <a class="logo logo-admin" href="{{url('/')}}"><img src="{{ asset('frontend/images/logo.png')}}" height="50" alt="logo"/></a>
             </h3>
             <div class="p-3">
                 <h4 class="text-muted font-18 m-0 text-center">Sign In</h4>
@@ -32,7 +31,7 @@
         <ul class="social social-login">
                                  <button id="login-google" class="google flaticon-googleplus button" style="width:100%;background-color: transparent;border: none;" onclick ="javascript:isLogin('gmail');return false;" >
                         <!-- <i class=" flaticon-google-plus-symbol"></i><span>Sign in with Google</span> -->
-                        <img src="/frontend/img/btn_google_signin.png" height="50" alt="logo"/>                    </button>
+                        <img src="{{ asset('frontend/images/btn_google_signin.png')}}" height="50" alt="logo"/>                    </button>
                 </li>
                                 </ul>
     </div>
@@ -56,7 +55,7 @@
                 </div>
                 <div class="form-group m-t-10 mb-0 row">
                     <div class="col-12 m-t-20">
-                        <a href="/forgotPassword" title="Forgot Password" class="text-muted"><i class="mdi mdi-lock"></i>Forgot your password?</a>                    </div>
+                        <a href="{{url('/forgotPassword')}}" title="Forgot Password" class="text-muted"><i class="mdi mdi-lock"></i>Forgot your password?</a>                    </div>
                 </div>
                 <div style="display:none;"><input type="hidden" name="_Token[fields]" autocomplete="off" value="81a51766956cd56d15fcca95780518cab49cf512%3A"/><input type="hidden" name="_Token[unlocked]" autocomplete="off" value=""/></div></form>            </div>
         </div>

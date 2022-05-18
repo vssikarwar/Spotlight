@@ -241,7 +241,7 @@ color:#737373
 [2. Start Slider]
 --------------------------------------------------*/
 .slider {
-    background: url('../images/bg1.jpg') center center no-repeat;
+    background: url('../img/bg1.jpg') center center no-repeat;
     background-size: cover;
     height: 100vh;
 	background-attachment:fixed;
@@ -646,7 +646,7 @@ color:#737373
 [10. Start Get Started]
 --------------------------------------------------*/
 .get-started {
-    background: url('../images/bg2.jpg') center center no-repeat;
+    background: url('../img/bg2.jpg') center center no-repeat;
     background-size: cover;
     padding: 70px 0;
     color: #ffffff;
@@ -906,7 +906,7 @@ color:#737373
 --------------------------------------------------*/
 .clients {
     padding: 120px 0;
-    background: url('../images/bg1.jpg') center center no-repeat;
+    background: url('../img/bg1.jpg') center center no-repeat;
     background-size: cover;
 }
 
@@ -1300,7 +1300,7 @@ p.staff-comitted-msg span {
 }
 
 .contact{
-        background: url('../images/bg2.jpg') center center no-repeat;
+        background: url('../img/bg2.jpg') center center no-repeat;
     background-size: cover;
     padding: 70px 0;
     color: #ffffff;

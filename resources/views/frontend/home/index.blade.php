@@ -26,7 +26,7 @@
                 <div class="row align-items-center">
                     <div class="col-8 col-sm-4">
                         <a href="{{url('/')}}" class="navbar-brand logo">
-                            <img src="{{ asset('frontend/images/logo_w.png')}}" alt="Spotlight"/>
+                            <img src="{{ asset('img/logo_w.png')}}" alt="Spotlight"/>
                         </a>  
                     </div>
                     <div class="col-4 col-sm-8 position-static">
@@ -50,9 +50,9 @@
 </nav>
 <section class="slider d-flex align-items-center banner-section" id="slider">
     <div class="slick-slider-home slick-slider-home-js"> 
-        <div class="home-banner-item" style="background-image: url(frontend/img/home-banner-2.jpg);"></div>
-        <div class="home-banner-item" style="background-image: url(frontend/img/home-banner-1.jpg);"></div>
-        <div class="home-banner-item" style="background-image: url(frontend/img/home-banner-3.jpg);"></div>
+        <div class="home-banner-item" style="background-image: url(img/home-banner-2.jpg);"></div>
+        <div class="home-banner-item" style="background-image: url(img/home-banner-1.jpg);"></div>
+        <div class="home-banner-item" style="background-image: url(img/home-banner-3.jpg);"></div>
     </div>
     <div class="liquid-row-overlay"></div>
     <div class="container">
@@ -78,25 +78,25 @@
         <div class="row mt-4"><!-- Box-1 -->
             <div class="col-md-6 mb-4">
                 <div class="box">
-                    <img src="{{ asset('frontend/images/f1.png')}}" alt="Effectual Ad Campaigns"/>                    <h3>Effectual Ad Campaigns</h3>
+                    <img src="{{ asset('img/f1.png')}}" alt="Effectual Ad Campaigns"/>                    <h3>Effectual Ad Campaigns</h3>
                     <p>Create multiple variants of your ad campaign for different locations, demographics, languages etc. thereby tailoring them dynamically for specific users at specific locations at a specific time!</p>
                 </div>
             </div><!-- Box-2 -->
             <div class="col-md-6 mb-4">
                 <div class="box">
-                    <img src="{{ asset('frontend/images/f2.png')}}" alt="Increased Reach"/>                    <h3>Increased Reach</h3>
+                    <img src="{{ asset('img/f2.png')}}" alt="Increased Reach"/>                    <h3>Increased Reach</h3>
                     <p>The Google display network offers unequalled inventory reaching out to 90% of all internet users around the world. Our solution ensures that we leverage on this vast inventory by using targeted and localized audiences.</p>
                 </div>
             </div><!-- Box-3 -->
             <div class="col-md-6 mb-4">
                 <div class="box">
-                    <img src="{{ asset('frontend/images/f3.png')}}" alt="Scale-Up ROIs"/>                    <h3>Scale-Up ROIs</h3>
+                    <img src="{{ asset('img/f3.png')}}" alt="Scale-Up ROIs"/>                    <h3>Scale-Up ROIs</h3>
                     <p>Using your location data, our platform enables you to create unique adword campaigns to improve ad relevance and drastically scale up campaign ROIs/</p>
                 </div>
             </div>
             <div class="col-md-6 mb-4">
                 <div class="box">
-                    <img src="{{ asset('frontend/images/f4.png')}}" alt="Gain Intellectual Insights"/>                    <h3>Gain Intellectual Insights</h3>
+                    <img src="{{ asset('img/f4.png')}}" alt="Gain Intellectual Insights"/>                    <h3>Gain Intellectual Insights</h3>
                     <p>Our platform marries technology with location data to upturn efficiency of your ad campaigns; provides insights into the best performing ones in specific cities, areas etc. </p>
                 </div>
             </div>
@@ -110,20 +110,20 @@
             <!-- Box-1 -->
             <div class="col-md-4 col-sm-6">
                 <div class="box mb-30">
-                    <img src="{{ asset('frontend/images/1.png')}}" alt="benefits1"/>                    <h3 class="mt-4">1 out of every 3</h3>
+                    <img src="{{ asset('img/1.png')}}" alt="benefits1"/>                    <h3 class="mt-4">1 out of every 3</h3>
                     <p>mobile searches are local</p>
                 </div>
             </div>
             <!-- Box-2 -->
             <div class="col-md-4 col-sm-6">
                 <div class="box mb-30">
-                    <img src="{{ asset('frontend/images/2.png')}}" alt="benefits2"/>                    <h3 class="mt-4">51%</h3>
+                    <img src="{{ asset('img/2.png')}}" alt="benefits2"/>                    <h3 class="mt-4">51%</h3>
                     <p>of local mobile searches result in a store visit.</p>
                 </div>
             </div><!-- Box-4 -->
             <div class="col-md-4 col-sm-6">
                 <div class="box">
-                    <img src="{{ asset('frontend/images/3.png')}}" alt="benefits3"/>                    <h3 class="mt-4">80%</h3>
+                    <img src="{{ asset('img/3.png')}}" alt="benefits3"/>                    <h3 class="mt-4">80%</h3>
                     <p>of consumers prefer locally relevant advertising</p>
                 </div>
             </div>
@@ -149,55 +149,55 @@
             <div class="our-team-outer">
                 <div class="row justify-content-center">
                     <div class="col-sm-6 col-md-4 col-lg-4 p-2 mb-mobi-4 mb-3">
-                        <figure><img src="{{ asset('frontend/images/our-team/Harish.jpg')}}" alt="Harish"/></figure>
+                        <figure><img src="{{ asset('img/our-team/Harish.jpg')}}" alt="Harish"/></figure>
                         <h3 >Harish Bahl</h3>
                         <span class="designation ">Chairman</span>
                         <p >20 years experience | Worldtel, Mid-day, Rediff.com, Director of Ad Sales AOL India before  founding dealsandyou.com in 2010 and SingleInterface in 2014</p>
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-4 p-2 mb-mobi-4 mb-3">
-                        <figure><img src="{{ asset('frontend/images/our-team/Tarun.jpg')}}" alt="Tarun"/></figure>
+                        <figure><img src="{{ asset('img/our-team/Tarun.jpg')}}" alt="Tarun"/></figure>
                         <h3>Tarun Sobhani</h3>
                         <span class="designation">CEO</span>
                         <p >20 years experience | Worldtel, Mid-day, Rediff.com, Director of Ad Sales AOL India before  founding dealsandyou.com in 2010 and SingleInterface in 2014</p>
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-4 p-2 mb-mobi-4 mb-3">
-                        <figure><img src="{{ asset('frontend/images/our-team/Sandeep.jpg')}}" alt="Sandeep"/></figure>
+                        <figure><img src="{{ asset('img/our-team/Sandeep.jpg')}}" alt="Sandeep"/></figure>
                         <h3 >Sandeep Singh</h3>
                         <span class="designation">COO</span>
                         <p >16 years experience | Rediff.com, Co-founded Quasar (Acquired by WPP), FREECULTR (D2C Brand funded by Sequoia Capital), VP Marketing at Bira 91 ( Sequoia Capital funded Beer brand ) </p>
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-4 p-2 mb-mobi-4 mb-3">
-                        <figure><img src="{{ asset('frontend/images/our-team/Girish.jpg')}}"/></figure>
+                        <figure><img src="{{ asset('img/our-team/Girish.jpg')}}"/></figure>
                         <h3 >Girish Laxminarayana</h3>
                         <span class="designation ">CTO</span>
                         <p >19 years experience | Pitney Bowes, Gaana.com, Techgig.com  & Zomato.com. Co-founded InstaColl, acquired by a company founded by Sabeer Bhatia .</p>
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-4 p-2 mb-mobi-4 mb-3">
-                        <figure><img src="{{ asset('frontend/images/our-team/Aijaz.jpg')}}" alt="Aijaz"/></figure>
+                        <figure><img src="{{ asset('img/our-team/Aijaz.jpg')}}" alt="Aijaz"/></figure>
                         <h3 >Mohammed Aijaz</h3>
                         <span class="designation">Engineering Head</span>
                         <p >14 years experience | Quasar, Zed Axis Technologies, Comwire Technologies. With SingleInterface since 2010 rising from Snr. Developer to Engineering Head. </p>
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-4 p-2 mb-mobi-4 mb-3">
-                        <figure><img src="{{ asset('frontend/images/our-team/Gagan.jpg')}}" alt="Gagan"/></figure>
+                        <figure><img src="{{ asset('img/our-team/Gagan.jpg')}}" alt="Gagan"/></figure>
                         <h3 >Gaganjot Singh Johar </h3>
                         <span class="designation">Director, Sales</span>
                         <p >Gagan 15 years experience | Droom.in, Radiocity.in, DB Corp, Times Internet, ICICI Pru| Head- Enterprise Solutions of Droom  before  joining Singleinterface as Director of Sales in 2020</p>
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-4 p-2 mb-mobi-4 mb-3">
-                        <figure><img src="{{ asset('frontend/images/our-team/vipul.jpg')}}" alt="vipul"/></figure>
+                        <figure><img src="{{ asset('img/our-team/vipul.jpg')}}" alt="vipul"/></figure>
                         <h3 >Vipul Manchanda</h3>
                         <span class="designation ">VP, New Business </span>
                         <p >20 years experience | VP Sales at magicpin (Hyperlocal discovery app), Star India, Greycells18 (subsidiary of TV18) ,Hindustan Times.</p>
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-4 p-2 mb-mobi-4 mb-3">
-                        <figure><img src="{{ asset('frontend/images/our-team/CK.jpg')}}" alt="CK"/></figure>
+                        <figure><img src="{{ asset('img/our-team/CK.jpg')}}" alt="CK"/></figure>
                         <h3 >Chaitanya Kakkar</h3>
                         <span class="designation">Director-Sales</span>
                         <p>12 years experience | Airtel Payments Bank, Oxigen, Dealsandyou.com | Head Strategic Partherships of Airtel Payments Bank before  joining Singleinterface as Director of Sales in 2019.</p>
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-4 p-2 mb-mobi-4 mb-3">
-                        <figure><img src="{{ asset('frontend/images/our-team/gargi.webp')}}"/></figure>
+                        <figure><img src="{{ asset('img/our-team/gargi.webp')}}"/></figure>
                         <h3 >Gargi Sharma</h3>
                         <span class="designation"> Associate Director</span>
                         <p></p>
@@ -255,7 +255,7 @@
                 <div class="col-md-4">
                     <div class="footer-left-wr">
                         <div class="footer-logo">
-                            <img src="{{ asset('frontend/images/logo_w.png')}}" alt="spotlight" class="foot_logo"/>                        </div>
+                            <img src="{{ asset('img/logo_w.png')}}" alt="spotlight" class="foot_logo"/>                        </div>
                         <p>Digital Transformation Marketing Stack for Physical Retail Enterprises.</p>
                         <ul class="footer-social-media">
                             <li><a href="https://twitter.com/singleinterface" target="_blank"><i class="fa fa-twitter"></i></a></li>
@@ -283,8 +283,22 @@
             </div>
         </div>
     </div>
-</footer>        <script>var urlForJs = "http://testing.myspotlight.co/";</script>
-        <script src="/frontend/js/jquery-3.1.1.min.js"></script><script src="/frontend/js/bootstrap.min.js"></script><script src="/frontend/js/popper.min.js"></script><script src="/frontend/js/slick.min.js"></script><script src="/frontend/js/jquery.waypoints.min.js"></script><script src="/frontend/js/jquery.counterup.min.js"></script><script src="/frontend/js/wow.min.js"></script><script src="/frontend/js/magnific-popup.min.js"></script><script src="/frontend/js/common.js?q=60820317"></script><script src="/frontend/js/main.js?q=60820317"></script><script src="/frontend/js/form.submit.js?q=60820317"></script><script src="https://www.google.com/recaptcha/api.js?q=60820317"></script>        <script>
+</footer>        
+    <script>var urlForJs = "{{url('/')}}";</script>
+    <script src="{{ URL::asset('js/jquery-3.1.1.min.js') }}"></script>
+    <script src="{{ URL::asset('js/bootstrap.min.js') }}"></script>
+    <script src="{{ URL::asset('js/popper.min.js') }}"></script>
+    <script src="{{ URL::asset('js/slick.min.js') }}"></script>
+    <script src="{{ URL::asset('js/jquery.waypoints.min.js') }}"></script>
+    <script src="{{ URL::asset('js/jquery.counterup.min.js') }}"></script>
+    <script src="{{ URL::asset('js/wow.min.js') }}"></script>
+    <script src="{{ URL::asset('js/magnific-popup.min.js') }}"></script>
+    <script src="{{ URL::asset('js/common.js?q=60820317') }}"></script>
+    <script src="{{ URL::asset('js/main.js?q=60820317') }}"></script>
+    <script src="{{ URL::asset('js/form.submit.js?q=60820317') }}"></script>
+    <script src="https://www.google.com/recaptcha/api.js?q=60820317"></script> 
+    
+    <script>
             $(document).ready(function () {
                 $('.slick-slider-home-js').slick({
                     dots: false,
